@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	
+}
+
+.header {
+	height: 8vh;
+	border-bottom: groove;
+}
+
+.title {
+	font-size: 6.5vh;
+	text-shadow: 2px 2px 4px #000000;
+	margin-left: 20%;
+	display: inline-block;
+}
+
+.header > h3 {
+	display: inline-block;
+	margin-left: 10%;
+	color: #555555;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 1.5vh;
+	font-weight: bold;
+}
+
+.newPost {
+	display: inline-block;
+	margin-left: 5%;
+	text-decoration: none;
+	color: #555555;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 1.5vh;
+	font-weight: bold;
+}
+
+.newPost:hover {
+	color: #5BC85B;
+	font-size: 1.8vh;
+	border-bottom: groove;
+}
+
+.logout {
+	display: inline-block;
+	margin-left: 5%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #555555;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 1.5vh;
+}
+
+.logout:hover {
+	color: orange;
+}
+
+.box {
+	width: 100%;
+	text-align: center;
+	background-color: #F8F8FF;
+}
+
+.container {
+	display: inline-block; width : 70%;
+	height: 100vh;
+	text-align: center;
+	width: 70%;
+}
+
+.posts {
+	width: 25%;
+	height: 40%;
+	display: inline-block;
+	background-color: #FFFAFA;
+	vertical-align: top;
+	margin: 1%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.image {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.subject {
+	size: 20px;
+	font-weight: bold;
+	color: #555555;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+
+.author {
+	color: #555555;
+}
+
+.link {
+	text-decoration: none;
+	color: #5BC85B;
+}

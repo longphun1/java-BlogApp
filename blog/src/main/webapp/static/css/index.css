@@ -1,0 +1,36 @@
+.body {
+	background-color:  #555555;
+	text-align: center;
+}
+		
+.container {
+		display: inline-block;
+		margin-top: 7%;
+		background-color: white;
+		width: 30%;
+		height: 70vh;
+}
+
+.register {
+	height: 40%;
+	margin-top: 10%;
+}
+
+.login {
+	height: 50%;
+}
+
+.form {
+	border: none;
+	border-bottom-style: groove;
+	width: 40%;
+	border-radius: 5px;
+	outline: none;
+}
+
+.button {
+	background-color: #555555;
+	color: white;
+	width: 40%;
+	border-radius: 5px;
+}
